@@ -1,4 +1,4 @@
-define(['jquery', './chart', './viewportSelectors'], function ($) {
+define(['jquery', './chart', './viewportSelectors', './lightbox', './kenburns'], function ($) {
   window.App.book.on('render', function () {
     var elements = $('.progress .progress-bar');
 
